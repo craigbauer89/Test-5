@@ -1,0 +1,124 @@
+
+/* MINE */
+
+/* body {
+    background-color: darkgrey;
+    margin-top: 2%;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+h1 {
+    margin: 15% auto;
+    font-size: 3rem;
+    font-weight: bold
+}
+
+p {
+
+    font-size: 2rem;
+}
+
+.container1, .container2 {
+    
+    width: 100%;
+    height: 300px;
+    background-color: none;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-content: space-around; 
+
+}
+
+.container1 div, .container2 div{
+
+    width: 23%;
+    height: 250px;
+    text-align: center;
+    box-shadow: 5px 10px 10px grey;
+
+}
+
+
+.box1, .box5, .box7 {
+    background-color: lightyellow;
+    transform: rotate(-8deg)
+
+}
+
+.box2, .box4, .box8 {
+    background-color: lightgreen;
+    transform: rotate(8deg)
+
+}
+
+.box3, .box6 {
+    background-color: rgb(161, 97, 161);
+    transform: rotate(-8deg)
+
+}
+
+
+
+.container1 div:hover, .container2 div:hover{
+
+    transform:scale(3);
+    transform: rotate(0deg)
+
+} */
+
+
+/* HIS */
+
+body{
+    font-size: 1.5rem;
+    font-family: 'Indie Flower', cursive;
+}
+    
+
+section {
+    background-color: darkgrey;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section div {
+    background-color: rgb(220, 220, 163);
+    padding: 2em;
+    margin: 0.75em;
+    transform: rotate(-5deg);
+    box-shadow: 5px 5px 8px black;
+    /* background: linear-gradient(90deg, rgba(172,160,25,1) 0%, rgba(249,255,0,0) 26%, rgba(239,255,0,1) 100%); */
+}
+
+section h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 1em;
+}
+
+section div:nth-child(2n+2) {
+    background-color: rgb(193, 231, 193);
+    transform: rotate(5deg);
+}
+
+section div:nth-child(3n) {
+    background-color: rgb(212, 174, 224);
+    transform: rotate(-5deg);
+}
+
+section div:hover{
+    transform: scale(1.2);
+    z-index: 1;
+    box-shadow: 10px 10px 10px black;
+    cursor: pointer;
+}
+    
+    
+    
+    
+    
+
